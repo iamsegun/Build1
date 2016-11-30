@@ -16,6 +16,43 @@ main{
 	height: 700px;*/
 }
 
+#nav-left li{
+	padding-left: 15px;
+	list-style: none;
+	display: inline-flex; 
+}
+
+li a:hover{
+	color: black !important;
+}
+
+/*.active li:second-child{
+	color: #988513 !important;
+}
+*/
+
+@media only screen and (max-width: 480px) {
+	#nav-left, #nav-left li{
+		text-align: center;
+		padding: 6px 0;
+		border-bottom: .025em solid #988513;
+		display: block;
+		background-color: lightgrey;
+	}
+
+	/*#nav-left ul a:hover{
+	background-color: #988513 !important;
+}*/
+
+/*	#nav-left{
+		padding-top:-5px !important;
+	}*/
+
+	#nav-left li:last-child{
+		border-bottom: none;
+	}
+}
+
 .top-container{ 
 	width: 1260px;
 	margin: auto;
@@ -83,7 +120,7 @@ main{
 
 .middle-container{
 	position: relative;
-	height: 500px;
+	/*height: 500px;*/
 }
 
 
@@ -100,7 +137,7 @@ main{
 	vertical-align: middle;
 	height: 500px;
 	/*margin: auto;*/
-	width: 525px;
+	/*width: 525px;*/
 	padding: 0 17%;
 	/*position: absolute;*/
 	/*left: 50px;*/
